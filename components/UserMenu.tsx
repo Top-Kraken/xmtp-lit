@@ -10,9 +10,13 @@ import useXmtp from '../hooks/useXmtp'
 type UserMenuProps = {
   onConnect?: () => Promise<void>
   onDisconnect?: () => Promise<void>
+  filter: boolean
   onShowShareModal: React.Dispatch<React.SetStateAction<boolean>>
   onFilterMessage: () => void
-  filter: boolean
+}
+
+type NotConnectedProps = {
+  onConnect?: () => Promise<void>
 }
 
 type AvatarBlockProps = {
@@ -23,7 +27,7 @@ const AvatarBlock = ({ walletAddress }: AvatarBlockProps) => (
   <Blockies seed={walletAddress} size={8} className="rounded-full mr-2" />
 )
 
-const NotConnected = ({ onConnect }: UserMenuProps): JSX.Element => {
+const NotConnected = ({ onConnect }: NotConnectedProps): JSX.Element => {
   return (
     <>
       <div>
