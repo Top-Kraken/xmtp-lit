@@ -1,3 +1,21 @@
+# XMTP Chat with Lit Protocol
+
+Title: XMTP Chat with CyberConnect (ETH Shanghai Hackathon)
+
+Description: Implemented CyberConnect functions in XMTP Chat project.
+
+Website: http://xmtp-lit.herokuapp.com/
+
+Screenshot:
+
+![image](https://user-images.githubusercontent.com/86540499/171317171-6567d29d-d0a0-42cd-8e87-a2cb7dc20730.png)
+
+![image](https://user-images.githubusercontent.com/86540499/171317226-8609bb77-d8e3-4498-8207-66ba7ce8159c.png)
+
+![image](https://user-images.githubusercontent.com/86540499/171317456-64eabfb9-b9fb-4b9a-814d-c69f29553f54.png)
+
+![image](https://user-images.githubusercontent.com/86540499/171317500-614682ec-8ca0-4a13-9947-b0556dc55195.png)
+
 # React Chat Example
 
 ![Test](https://github.com/xmtp/example-chat-react/actions/workflows/test.yml/badge.svg)
